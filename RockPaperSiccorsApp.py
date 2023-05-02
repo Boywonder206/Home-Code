@@ -13,7 +13,7 @@ def enter_clicked():
     Really.configure(text='\n'.join(idkList))
 
 app = ctk.CTk()
-app.title("MYFIRSTAPP")
+app.title("RockPaperScissorsShoot")
 app.geometry("800x700")
 computer = random.choice(['r', ' p', 's'])
 x = ""
